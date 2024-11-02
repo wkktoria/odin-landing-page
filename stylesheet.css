@@ -96,6 +96,46 @@ a {
   flex-shrink: 0;
 }
 
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.information h2 {
+  font-size: 26px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 36px;
+}
+
+.card {
+  padding: 16px;
+}
+
+.card .image {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #3882f6;
+  border-radius: 12px;
+}
+
+.card .text {
+  margin-top: 8px;
+  width: 150px;
+  text-align: center;
+  color: #6c6c6c;
+}
+
 .footer {
   margin-top: auto;
   background-color: #1f2937;
